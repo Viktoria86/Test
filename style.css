@@ -1,0 +1,70 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+
+body
+{
+    color: black;
+    text-align: row;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.header
+{
+    background-color: rgb(10, 158, 35);
+    height: 100px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.container
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.left
+{
+    background-color: rgb(232, 238, 222);
+    width: 15%;
+    height: 500px;
+    color: black;
+    padding-left: 20px;
+    padding-top: 20px;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.main
+{
+    background-color: rgb(252, 248, 248);
+    width: 70%;
+    height: 500px;
+    color: black;
+    padding-left: 20px;
+    padding-top: 20px;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.right
+{
+    background-color:rgb(232, 238, 222) ;
+    width: 15%;
+    height: 500px;
+    color: black;
+    padding-left: 20px;
+    padding-top: 20px;
+    font-size: 24px;
+    font-weight: 400;
+}
+.footer
+{
+    background-color: rgb(10, 158, 35);
+    height: 100px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
