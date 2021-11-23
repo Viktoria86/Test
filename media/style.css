@@ -1,0 +1,32 @@
+.flex {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.flex > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    border: 1px solid #000000;
+    margin: 5px;
+}
+
+@media screen and (max-width: 600px) {
+    #el-5 {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 700px) {
+    .flex {
+        flex-flow: column nowrap;
+    }
+
+    .flex > div {
+        background-color: rgba(255, 0, 0, .3);
+    }
+
+
+}
